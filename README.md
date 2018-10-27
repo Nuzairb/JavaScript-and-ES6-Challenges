@@ -3,7 +3,7 @@
 
 Step-by-step guide to clone and use repository:
 
-1. `git clone https://github.com/bstashchuk/JavaScript-and-ES6-Challenges`
+1. `git clone https://github.com/Nuzairb/JavaScript-and-ES6-Challenges`
 
 2. `cd JavaScript-and-ES6-Challenges`
 
