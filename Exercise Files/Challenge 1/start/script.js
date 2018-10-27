@@ -9,16 +9,14 @@ Use ES6 whenever possible.
 "use strict";
 
 // Write code here
-function sum() {
-    var s = 0;
-    for (var i = 0; i < arguments.length; i++) {
-        s += arguments[i];
-    }
-    return s;
+function sum(...args) {
+    var total;
+    total = args.reduce((acc, elem) => acc + elem, 0);
+    console.log(total);
 }
-console.log(sum(1, 3));
+(sum(1, 3));
 //4
-console.log(sum(10, 20, 5));
+(sum(10, 20, 5));
 //35
-console.log(sum(2, 5, 80, 1, 10, 12));
+(sum(2, 5, 80, 1, 10, 12));
 //110
